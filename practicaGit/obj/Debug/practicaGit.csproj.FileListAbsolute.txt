@@ -1,0 +1,10 @@
+C:\Users\esfan\source\repos\Practica\practicaGit\obj\Debug\practicaGit.csprojAssemblyReference.cache
+C:\Users\esfan\source\repos\Practica\practicaGit\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\esfan\source\repos\Practica\practicaGit\obj\Debug\practicaGit.Properties.Resources.resources
+C:\Users\esfan\source\repos\Practica\practicaGit\obj\Debug\practicaGit.csproj.GenerateResource.cache
+C:\Users\esfan\source\repos\Practica\practicaGit\obj\Debug\practicaGit.csproj.CoreCompileInputs.cache
+C:\Users\esfan\source\repos\Practica\practicaGit\bin\Debug\practicaGit.exe.config
+C:\Users\esfan\source\repos\Practica\practicaGit\bin\Debug\practicaGit.exe
+C:\Users\esfan\source\repos\Practica\practicaGit\bin\Debug\practicaGit.pdb
+C:\Users\esfan\source\repos\Practica\practicaGit\obj\Debug\practicaGit.exe
+C:\Users\esfan\source\repos\Practica\practicaGit\obj\Debug\practicaGit.pdb
