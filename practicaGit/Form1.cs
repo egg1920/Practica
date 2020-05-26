@@ -52,6 +52,11 @@ namespace WindowsFormsApp1
             misAlumnos.Agregar(miAlumno);
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola Estefanía. Estoy llorando de la emoción porque ya me va esto correctamente. Espero no volver a llorar de pena" +
+                "porque entonces me realisaré la suisidasion si deja de ir...");
+        }
     }
 }
 
