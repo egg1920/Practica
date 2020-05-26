@@ -41,7 +41,11 @@ namespace WindowsFormsApp1
                 miAlumnoNotaTexto = "Notable";
             }
             else
+                if (miAlumno.Nota <= 10)
+            {
                 miAlumnoNotaTexto = "Sobresaliente";
+            }
+            miAlumnoNotaTexto = "Nota fuera de rango";
             miAlumnoStr = aluNombre.Text + " " + aluNota.Text + " " +
            miAlumnoNotaTexto + "\n";
             listaAlumnos.AppendText(miAlumnoStr);
