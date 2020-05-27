@@ -18,3 +18,13 @@ C:\Users\fogm8\Source\Repos\Practica_EGG\practicaGit\obj\Debug\practicaGit.cspro
 C:\Users\fogm8\Source\Repos\Practica_EGG\practicaGit\obj\Debug\practicaGit.csproj.CoreCompileInputs.cache
 C:\Users\fogm8\Source\Repos\Practica_EGG\practicaGit\obj\Debug\practicaGit.exe
 C:\Users\fogm8\Source\Repos\Practica_EGG\practicaGit\obj\Debug\practicaGit.pdb
+C:\Users\esfan\Source\Repos\Practica5\practicaGit\bin\Debug\practicaGit.exe.config
+C:\Users\esfan\Source\Repos\Practica5\practicaGit\bin\Debug\practicaGit.exe
+C:\Users\esfan\Source\Repos\Practica5\practicaGit\bin\Debug\practicaGit.pdb
+C:\Users\esfan\Source\Repos\Practica5\practicaGit\obj\Debug\practicaGit.csprojAssemblyReference.cache
+C:\Users\esfan\Source\Repos\Practica5\practicaGit\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\esfan\Source\Repos\Practica5\practicaGit\obj\Debug\practicaGit.Properties.Resources.resources
+C:\Users\esfan\Source\Repos\Practica5\practicaGit\obj\Debug\practicaGit.csproj.GenerateResource.cache
+C:\Users\esfan\Source\Repos\Practica5\practicaGit\obj\Debug\practicaGit.csproj.CoreCompileInputs.cache
+C:\Users\esfan\Source\Repos\Practica5\practicaGit\obj\Debug\practicaGit.exe
+C:\Users\esfan\Source\Repos\Practica5\practicaGit\obj\Debug\practicaGit.pdb

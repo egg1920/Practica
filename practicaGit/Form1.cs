@@ -26,30 +26,43 @@ namespace WindowsFormsApp1
         {
             Alumno miAlumno = new Alumno();
             String miAlumnoStr, miAlumnoNotaTexto;
-            miAlumno.Nombre = aluNombre.Text;
-            miAlumno.Nota = Convert.ToInt32(aluNota.Text);
-            if (miAlumno.Nota < 5)
+
+
+            if (string.IsNullOrEmpty(aluNombre.Text) || (string.IsNullOrEmpty(aluNota.Text)))
             {
-                miAlumnoNotaTexto = "Suspenso";
-            }
-            else if (miAlumno.Nota < 7)
-            {
-                miAlumnoNotaTexto = "Aprobado";
-            }
-            else if (miAlumno.Nota < 9)
-            {
-                miAlumnoNotaTexto = "Notable";
+                errorProvider1.SetError(aluNombre, "Debes introducir un nombre");
+                errorProvider1.SetError(aluNota, "Debes introducir un nombre");
             }
             else
-                if (miAlumno.Nota <= 10)
             {
-                miAlumnoNotaTexto = "Sobresaliente";
+                errorProvider1.Clear();
+                miAlumno.Nombre = aluNombre.Text;
+                miAlumno.Nota = Convert.ToInt32(aluNota.Text);
+
+                if (miAlumno.Nota < 5)
+                {
+                    miAlumnoNotaTexto = "Suspenso";
+                }
+                else if (miAlumno.Nota < 7)
+                {
+                    miAlumnoNotaTexto = "Aprobado";
+                }
+                else if (miAlumno.Nota < 9)
+                {
+                    miAlumnoNotaTexto = "Notable";
+                }
+                else
+
+                {
+                    miAlumnoNotaTexto = "Sobresaliente";
+                }
+
+                miAlumnoStr = aluNombre.Text + " " + aluNota.Text + " " + miAlumnoNotaTexto + Environment.NewLine;
+                listaAlumnos.AppendText(miAlumnoStr);
+                misAlumnos.Agregar(miAlumno);
             }
-            miAlumnoNotaTexto = "Nota fuera de rango";
-            miAlumnoStr = aluNombre.Text + " " + aluNota.Text + " " +
-           miAlumnoNotaTexto + "\n";
-            listaAlumnos.AppendText(miAlumnoStr);
-            misAlumnos.Agregar(miAlumno);
+
+
         }
 
         private void button2_Click(object sender, EventArgs e)
